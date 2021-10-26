@@ -1,0 +1,33 @@
+
+body {
+    background-color: rgb(196, 145, 145);
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    direction: rtl;
+}
+
+section {
+margin-top: 10rem;
+}
+
+
+div {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+span {
+    font-size: 1rem;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+input , label {
+    display: block;
+    margin: 0 auto;
+}
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <h1 id="heading">فرم محاسبه حقوق هفتگی</h1>
+        <div class="inputs">
+            <label for="standradHours">ساعات کار قانونی در شرکت شما چقدر است؟ <span title="به عدد وارد کنید. مثلا: 40">راهنما</span></label>
+            <input type="number" name="" id="standradHours">
+            <label for="hourlyWage">دستمزد هر ساهت چند تومان است؟ <span title="به صورت کامل وارد کنید. مثلا برای پنجاه هزار تومان تایپ کنید: 50000">راهنما</span></label>
+            <input type="number" name="" id="hourlyWage">
+            <label for="overWorkHourlyWage">دستمزد اضافه کار به ازای هر ساهت چند تومان است؟ <span title="این مبلغ به صورت جداگانه و در ازای هر ساعت اضافه کار، به دستمزد قانونی اضافه میشود">راهنما</span></label>
+            <input type="number" name="" id="overWorkHourlyWage">
+            <label for="workedHours">اعلام کنید که در طی هفته کلا چند ساعت کار انجام شده؟</label>
+            <input type="number" name="" id="workedHours">
+            <button id="claculateButton">محاسبه کن!</button>
+            <button id="claculateReset">محاسبه مجدد</button>
+        </div>
+
+        <div class="outputs">
+        </div>
+    </section>
+
+</body>
+
+</html>
+<!-- const standradHours = 45
+const hourlyWage = 100000
+const overWorkHourlyWage = 120000
+const workedHours = 41 -->
