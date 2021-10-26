@@ -37,6 +37,17 @@ calculateButton.addEventListener("click", () => {
         calculateButton.disabled = true;
     } else { alert("لطفا تمام فیلد ها را پر کنید !") }
 });
+
+claculateReset.addEventListener("click", () => {
+    standradHours.value = ""
+    hourlyWage.value = ""
+    overWorkHourlyWage.value = ""
+    workedHours.value = ""
+    ul.innerHTML = '';
+    calculateButton.disabled = false;
+
+})
+
 // console.log(total)
 
 

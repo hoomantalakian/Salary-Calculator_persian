@@ -1,27 +1,43 @@
 
 body {
-    background-color: rgb(197, 133, 133);
+    background-image: url(red-seamless.jpg);
+    background-color: rgb(170, 67, 67);
     font-family: "IBM Plex Sans Arabic", sans-serif;
     direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+
 section {
-margin-top: 10rem;
+    margin-top: 5rem;
+    padding-bottom: 1.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.212);
+    width: 50rem;
+    background-color: rgba(0, 0, 0, 0.363);
+    border-radius: 1rem;
+
 }
 
 button {
     margin-top: 1.5rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 800;
     padding: 0.5rem 1rem;
-    background-color: rgb(146, 72, 72);
+    background-color: rgb(58, 141, 173);
     border-radius: 5px;
     border: none;
     color: rgb(255, 255, 255);
     font-family: "IBM Plex Sans Arabic", sans-serif;
+    text-shadow: 1px 1px  3px #00000083;
 }
 button:disabled {
-    opacity: 0.5;
+    background-color: rgb(114, 69, 69);
+    color: rgb(131, 114, 114);
+
+
 
 }
 
@@ -32,22 +48,31 @@ div {
 
 span {
     font-size: 1rem;
-    color: rgba(0, 0, 0, 0.507);
+    color: rgba(255, 255, 255, 0.747);
 
 }
 
 h1 {
     text-align: center;
     font-size: 3rem;
+    color: rgb(245, 245, 245);
+    margin-bottom: 1.8rem;
 }
 
 input , label {
     display: block;
     margin: 0 auto;
+    color: rgb(255, 255, 255);
+
+}
+
+input  {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
 }
 
 input {
-    background-color: rgb(219, 182, 182);
+    background-color: rgba(255, 255, 255, 0.829);
     border: 1px solid rgba(0, 0, 0, 0.267);
     width: 50;
     outline: none;
@@ -55,11 +80,22 @@ input {
     margin-bottom: 1rem;
     border-radius: 5px;
     height: 1.3rem;
+    
 
 }
 
 li {
+    padding: 1rem 3rem; 
+    margin-top: 1rem;
     list-style-type: none;
+    background-color: rgb(238, 156, 79);
+    width: 100%;
+
 }
 
-
+ul#listContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+}
